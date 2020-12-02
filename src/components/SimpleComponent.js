@@ -13,7 +13,7 @@ export default class SimpleComponent extends React.Component {
   }
 
   handleClick(ev){
-    
+
     const { mood } = this.state;
     if (mood === 'happy'){
       this.setState({ mood: 'sad' });
